@@ -1,0 +1,17 @@
+.our_services {
+  background-color: #f5f7fd;
+  padding: 10vh 6vw;
+}
+.services_banner {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  text-align: center;
+}
+.services_banner_cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 9vh 0;
+}

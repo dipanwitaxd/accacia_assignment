@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 6vw;
+  align-items: center;
+}
+.right_nav {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.login_button {
+  background-color: white;
+  border: 1px solid #f36b7f;
+  padding: 0.5vh 2vw;
+  color: #f36b7f;
+  border-radius: 25px;
+}
+.bar_button {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .bar_button {
+    display: block;
+    border: none;
+    background-color: white;
+  }
+  .right_nav{
+    display: none;
+  }
+}

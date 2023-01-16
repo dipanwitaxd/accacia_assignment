@@ -1,0 +1,19 @@
+.footer {
+  background-color: #82b5a5;
+  border: none;
+  border-radius: 150px 0px 0px 0px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 5vh 9vw;
+}
+.copyright {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+}

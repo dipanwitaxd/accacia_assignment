@@ -1,0 +1,60 @@
+.aboutus {
+  display: flex;
+  padding: 9vh 6vw;
+  align-items: center;
+}
+.aboutus_left {
+  text-align: left;
+}
+.aboutus_heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 68px;
+}
+.aboutus_subheading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  width: 28vw;
+  padding: 2vh 0;
+}
+.image{
+  width: fit-content;
+}
+.button_aboutus{
+    background-color: #F36B7F;
+    border: none;
+    padding: 1.2vh 2vw;
+    color: white;
+    border-radius: 25px;
+    margin-top: 1vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutus {
+    display: flex;
+    flex-direction:column-reverse;
+    
+  }
+  .image{
+    width: 100%;
+  }
+  .aboutus_left {
+    text-align: center;
+    width: 100%;
+  }
+  .aboutus_heading {
+    font-size: 40px;
+   
+  }
+  .aboutus_subheading {
+    
+    font-size: 16px;
+    line-height: 29px;
+    width: 100%;
+  }
+}

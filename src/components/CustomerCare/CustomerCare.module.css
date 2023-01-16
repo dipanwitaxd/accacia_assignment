@@ -1,0 +1,57 @@
+.customer_care {
+  display: flex;
+  padding: 3vh 6vw;
+  align-items: center;
+  padding-bottom: 0;
+  flex-direction: row;
+}
+.customer_care_left {
+  width: 40vw;
+  text-align: left;
+  padding-left: 10vw;
+  padding-top: 10vh;
+  width: 30vw;
+}
+.customer_care_header {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 46px;
+
+}
+.woman {
+  position: absolute;
+  width: 657px;
+  height: 653px;
+  left: 657px;
+  top: 2140px;
+}
+.subhead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  padding-top: 2vh;
+}
+.button_contact_us{
+    background-color: #F36B7F;
+    border: none;
+    padding: 1.2vh 2vw;
+    color: white;
+    border-radius: 25px;
+    margin-top: 1vh;
+}
+.image{
+  width: 100%;
+}
+@media only screen and (max-width: 768px){
+  .customer_care {
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    width: 100%;
+  }
+}
