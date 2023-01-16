@@ -10,8 +10,17 @@
   line-height: 47px;
   text-align: center;
 }
-.services_banner_cards{
+.services_banner_cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 9vh 0;
+  flex-direction: row;
+}
+@media only screen and (max-width: 768px) {
+  .services_banner_cards {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding: 9vh 0;
+  }
 }

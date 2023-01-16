@@ -7,11 +7,11 @@
   justify-content: space-between;
   flex-direction: row;
 }
-.left{
-    width: 28vw;
-    text-align: left;
-    color: white;
-
+.left {
+  width: 28vw;
+  text-align: left;
+  color: white;
+  margin-bottom: 0;
 }
 .left_head {
   font-family: "Open Sans";
@@ -21,28 +21,33 @@
   line-height: 47px;
   padding-left: 1vw;
 }
-.left_subhead{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 29px;
-    width: 20vw;
-    padding: 2vh 1vw;
+.left_subhead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  width: 20vw;
+  padding: 2vh 1vw;
 }
-.googleplay{
-    width: 13vw;
+.googleplay {
+  width: 13vw;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .download_app {
     flex-direction: column;
   }
-  .left_head {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 47px;
-    padding-left: 1vw;
+  .left {
+    width: 100%;
+    text-align: center;
+    padding: 2vh 0;
+    margin-bottom: 5vh;
+  }
+  .left_subhead {
+    padding: 2vh 0;
+    width: 100%;
+  }
+  .googleplay {
+    width: 100%;
   }
 }

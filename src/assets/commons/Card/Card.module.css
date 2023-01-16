@@ -25,6 +25,7 @@
 .card_outer {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 .circle {
   position: absolute;
@@ -39,4 +40,9 @@
     justify-content: center;
     align-items: center;
     height: 130px;
+}
+@media only screen and (max-width: 768px) {
+  .card_outer {
+    margin-bottom: 3vh;
+  }
 }
